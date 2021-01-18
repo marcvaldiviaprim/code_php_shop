@@ -1,0 +1,5 @@
+CREATE TABLE USUARIOS (
+id_usuario int not null AUTO_INCREMENT PRIMARY KEY,
+ correo VARCHAR(30),
+ nick VARCHAR(30),
+ password VARCHAR(16) not null);
